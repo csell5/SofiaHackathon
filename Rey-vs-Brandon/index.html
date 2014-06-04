@@ -16,26 +16,44 @@
     <script src="scripts/app.js"></script>
 </head>
 <body>
+    <img src='images/spurs-heat-header-graphic.png' width=100%/>
     <!--Home View-->
-    <div id="tabstrip-home"
-        data-role="view"
-        data-title="Home">
+    <div id="tabstrip-home" data-role="view" data-title="Home">
         <header data-role="header">
-            <div data-role="navbar">
-                <span data-role="view-title"></span>
-                <a id="skin-change" data-role="button" data-align="right" data-click="app.changeSkin">Flat</a>
-            </div>
+            <h3>
+                Game 1: Thursday 9pm ET, ABC
+            </h3>
         </header>
-
-        <h3>Spurs ve Heat</h3>
-        <p>
-            asdf asdf asdf asd adsf
-        </p>
-        <input type=url />
-        <input type=button>
-            submit
-        </button>
         
+        <div id="news">
+            <h3>
+                Spurs' Parker plans to play Game 1 of Finals
+            </h3>
+            <p>
+                SAN ANTONIO (AP) -- Tony Parker plans to play in Game 1 of the NBA Finals. The San Antonio Spurs open their rematch with the Miami Heat on Thursday, and their star point guard is nursing a balky left ankle. "He's getting better every day, and I expect him to play," coach Gregg Popovich said Tuesday.
+            </p>
+            
+            <a href="http://www.nba.com/2014/news/06/03/parker-to-play-game-one-of-finals.ap/index.html">read more...</a>
+        </div>
+        
+        <div>
+            <h3>
+                Talk some trash!
+            </h3>
+        </div>
+        
+        <div id="talkTrash">
+            <div>
+                <textarea rows="2" id="talkTrashMessage" placeholder="Talk Some Trash!"></textarea>
+            </div>        
+            <div>
+                <input type="url" placeholder="http://nba.com"/>            
+            </div>
+            <div>
+                <input type="submit" value="Dunk It!"/>                    
+            </div>
+        </div>
+
     </div>
 
     <!--Location View-->
