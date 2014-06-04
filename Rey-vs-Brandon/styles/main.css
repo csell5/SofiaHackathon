@@ -23,6 +23,12 @@
     width: 80%;
 }
 
+#bigButton {
+    height: 50px;
+    width: 100%;
+}
+
+
 header {
     margin-top: 10px;
 }
