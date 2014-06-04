@@ -22,6 +22,9 @@
     display: block;
     width: 80%;
 }
+#articleLink a:link {
+	text-decoration: none;    
+}
 
 header {
     margin-top: 10px;
