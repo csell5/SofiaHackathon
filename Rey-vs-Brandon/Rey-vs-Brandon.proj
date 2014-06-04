@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ProjectGuid>cf0a4e5a-19ea-466f-bfaf-1afd4c003de2</ProjectGuid>
     <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
-    <AppIdentifier>com.telerik.ReyvsBrandon</AppIdentifier>
+    <AppIdentifier>com.telerik.rayvsbrandon</AppIdentifier>
     <ProjectName>Rey-vs-Brandon</ProjectName>
     <IsRunnable>true</IsRunnable>
     <FrameworkVersion>3.2.0</FrameworkVersion>
@@ -13,7 +13,9 @@
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
     <WP8SupportedResolutions>ID_RESOLUTION_WVGA;ID_RESOLUTION_WXGA;ID_RESOLUTION_HD720P</WP8SupportedResolutions>
-    <BundleVersion>1.0</BundleVersion>
+    <BundleVersion>0.1</BundleVersion>
+    <Description>Rey-vs-Brandon</Description>
+    <DisplayName>RayVsBrandon</DisplayName>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
