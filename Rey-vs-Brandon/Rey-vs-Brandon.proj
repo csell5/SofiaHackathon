@@ -14,8 +14,8 @@
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
     <WP8SupportedResolutions>ID_RESOLUTION_WVGA;ID_RESOLUTION_WXGA;ID_RESOLUTION_HD720P</WP8SupportedResolutions>
     <BundleVersion>0.1</BundleVersion>
-    <Description>Rey-vs-Brandon</Description>
-    <DisplayName>RayVsBrandon</DisplayName>
+    <Description>When you want to trash talk, do it the right way!</Description>
+    <DisplayName>Rey vs Brandon</DisplayName>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
