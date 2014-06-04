@@ -46,13 +46,13 @@
         
         <div id="talkTrash">
             <div>
-                <textarea rows="2" id="talkTrashMessage" placeholder="Talk Some Trash!"></textarea>
+                <textarea rows="2" id="talkTrashMessage" data-bind="value: trashTalkMessage" placeholder="Talk Some Trash!"></textarea>
             </div>        
             <div>
-                <input type="url" placeholder="http://nba.com"/>            
+                <input type="url" data-bind="value: trashTalkUrl" placeholder="http://nba.com"/>
             </div>
             <div>
-                <input type="submit" data-bind="click: sendMessage" value="Dunk It!"/>                    
+                <input type="submit" data-bind="click: sendMessage" value="Dunk It!"/>               
             </div>
         </div>
 
