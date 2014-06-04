@@ -8,7 +8,7 @@
     }, false);
     
     // initialize the Everlive API
-    var el = new Everlive("YOUR EVERLIVE KEY");
+    var el = new Everlive("oIc9OiwkY3YRDLQs");
     
     // specify what push notification features we want
     // access to on the device as well as events
