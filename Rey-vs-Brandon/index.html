@@ -17,6 +17,7 @@
 </head>
 <body>
     <img src='images/spurs-heat-header-graphic.png' width=100%/>
+    
     <!--Home View-->
     <div id="tabstrip-home" data-role="view" data-title="Home">
         <header data-role="header">
@@ -55,8 +56,17 @@
         </div>
 
     </div>
+ 
+    <!-- Messages View-->
+    <div id="tabstrip-messages"
+        data-role="view"
+		data-title="Messages">
 
-    <!--Location View-->
+        <h3>asdf adsfa asdf</h3>
+        
+    </div>
+
+    <!-- Settings View-->
     <div id="tabstrip-settings"
         data-role="view"
 		data-title="Settings">
@@ -66,7 +76,7 @@
         </h3>
         
     </div>
-
+    
     <!--Layout-->
     <div data-role="layout" data-id="tabstrip-layout">
         <!--Header-->
@@ -80,7 +90,8 @@
         <div data-role="footer">
             <div data-role="tabstrip">
                 <a href="#/" data-icon="home">Home</a>
-                <a href="#tabstrip-settings" data-icon="search">Settings</a>
+                <a href="#tabstrip-messages" data-icon="featured">Messages</a>
+                <a href="#tabstrip-settings" data-icon="settings">Settings</a>
             </div>
         </div>
     </div>
