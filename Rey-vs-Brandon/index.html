@@ -10,16 +10,17 @@
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
 
-    <script src="scripts/login.js"></script>
-    <script src="scripts/location.js"></script>
-    <script src="scripts/weather.js"></script>
+    <script src="scripts/home.js"></script>
     <script src="scripts/app.js"></script>
 </head>
 <body>
     <img src='images/spurs-heat-header-graphic.png' width=100%/>
     
     <!--Home View-->
-    <div id="tabstrip-home" data-role="view" data-title="Home">
+    <div id="tabstrip-home" 
+         data-role="view" 
+         data-title="Home"
+         data-model="app.homeService.viewModel">
         <header data-role="header">
             <h3>
                 Game 1: Thursday 9pm ET, ABC
@@ -51,7 +52,7 @@
                 <input type="url" placeholder="http://nba.com"/>            
             </div>
             <div>
-                <input type="submit" value="Dunk It!"/>                    
+                <input type="submit" data-bind="click: sendMessage" value="Dunk It!"/>                    
             </div>
         </div>
 
