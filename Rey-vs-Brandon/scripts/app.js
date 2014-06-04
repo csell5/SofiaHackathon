@@ -47,11 +47,17 @@
       },
       function(err) {
         // DENIED for some reason
+          navigator.notification.alert("error",
+			function () { }, "Push notifications are not enabled " + err, 'OK');
+          
         console.log("Push notifications are not enabled " + err);
       })
     .then(
       function (e) {
         // this device is already registered - no need to do it again
+          navigator.notification.alert("error",
+                    function () { }, "Device is already registered: " + JSON.stringify(e), 'OK');
+                
         console.log("Device is already registered: " + JSON.stringify(e));
       },
       function (err) {
@@ -73,6 +79,9 @@
         // if there is an existing registration of the device the function will not receive 'registration' parameter
       },
       function (err) {
+        navigator.notification.alert("error", 
+			function () { }, "ERROR! An error occured while checking device registration status: " + err.message, 'OK');
+                                     
         console.log("ERROR! An error occured while checking device registration status: " + err.message);
       }
     );
