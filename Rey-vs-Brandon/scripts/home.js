@@ -23,7 +23,17 @@
             }
             
             // send push notification
-        },
+            var el = new Everlive('oIc9OiwkY3YRDLQs');
+            el.push.notifications.create(
+                { Message: trashTalkMessage },
+                function(data){ 
+                    console.log('asdf');
+                },
+                function(error){ 
+                    console.log('error'); 
+                }
+            );  
+        }
 
     });
 

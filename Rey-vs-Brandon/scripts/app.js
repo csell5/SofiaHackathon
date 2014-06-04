@@ -16,6 +16,7 @@
       iOS: { badge: true, sound: true, alert: true },
       notificationCallbackIOS: function (e) {  
         // this event gets fired for iOS
+          
       },
       notificationCallbackAndroid: function(e) {
         // this event gets fired for Android
