@@ -1,11 +1,12 @@
 (function (global) {
-    var HomeViewModel,
+    var MessageViewModel,
         app = global.app = global.app || {};
 
-    HomeViewModel = kendo.data.ObservableObject.extend({
+    MessageViewModel = kendo.data.ObservableObject.extend({
         trashTalkMessage: "", 
         trashTalkUrl: "",
-        
+   
+        // do we want a reply???
         sendMessage: function () {
             console.log("SendMessage func was called");
             
@@ -27,8 +28,15 @@
 
     });
 
-    app.homeService = {
-		viewModel: new HomeViewModel()
+    app.messageService = {
+        
+		//default event when view is shown.
+        show = function() {
+        
+    	},
+        
+        viewModel: new MessageViewModel()
+        
     };
 }
 )(window);
